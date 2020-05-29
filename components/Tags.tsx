@@ -5,22 +5,17 @@ export function Tags() {
   return (
     <div>
       <h5> All tags </h5>
-      <div className="tags-container">
+      <p className="tags-container">
         {store.getTags().map((tag, index) => {
           return (
-            <Link key={index} href={`/tags/${tag}`}>
-              <a
-                style={{
-                  marginRight: 5,
-                }}
-              >
-                {" "}
-                {tag}{" "}
-              </a>
+            <Link key={index} href={`/tags/:id`} as={`/tags/${tag}`}>
+              <div>
+                <a> {tag} </a>
+              </div>
             </Link>
           );
         })}
-      </div>
+      </p>
     </div>
   );
 }
