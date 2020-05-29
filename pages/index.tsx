@@ -1,5 +1,4 @@
 import Fuse from "fuse.js";
-import Link from "next/link";
 import { IAmFeelingLucky } from "../components/IAmFeelingLucky";
 import { Meta } from "../components/Meta";
 import { SearchList } from "../components/SearchList";
@@ -18,7 +17,6 @@ function IndexPage({ blogs }) {
         title="Awesomeblog.club - explore"
         description="Discover awesome small and personal blogs."
       />
-
       <iframe
         src="https://ghbtns.com/github-btn.html?user=searchableguy&repo=awesomeblog-club&type=star&count=true&size=large"
         frameBorder="0"
@@ -27,24 +25,6 @@ function IndexPage({ blogs }) {
         height="30"
         title="GitHub"
       ></iframe>
-      <blockquote>
-        I am hijacking this blockquote. I built this in response to various{" "}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://news.ycombinator.com/item?id=22800136"
-        >
-          {" "}
-          ask HNs{" "}
-        </a>{" "}
-        and reddit posts asking for personal and small blogs to follow. I like
-        them so much but they are getting harder to find with everyone spamming
-        AMP and SEO bs in search results. So I made this. Read more about
-        <Link href="/motivation">
-          <a> motivation </a>
-        </Link>
-        .
-      </blockquote>
 
       <h4
         style={{

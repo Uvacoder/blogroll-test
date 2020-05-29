@@ -20,6 +20,10 @@ export function Navigation() {
           <a>Contact</a>
         </Link>{" "}
         /{" "}
+        <Link href="/motivation">
+          <a>Motivation</a>
+        </Link>{" "}
+        /{" "}
         <a
           target="_blank"
           rel="noopener noreferrer"
