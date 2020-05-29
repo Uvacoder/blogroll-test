@@ -1,29 +1,46 @@
 import Link from "next/link";
+import { Fragment } from "react";
+
+const links = [
+  {
+    href: "/contribute",
+    text: "How to contribute",
+  },
+  {
+    href: "/submit",
+    text: "Submit your blog",
+  },
+  {
+    href: "/deployment",
+    text: "Deploy your own",
+  },
+  {
+    href: "/contact",
+    text: "Send a message",
+  },
+  {
+    href: "/motivation",
+    text: "Motivation",
+  },
+  {
+    href: "/tags",
+    text: "Tags",
+  },
+];
 
 export function Navigation() {
   return (
     <nav>
       <p>
-        <Link href="/contribute">
-          <a>How to contribute</a>
-        </Link>{" "}
-        /{" "}
-        <Link href="/submit">
-          <a>Submit your blog</a>
-        </Link>{" "}
-        /{" "}
-        <Link href="/deployment">
-          <a>Deploy your own</a>
-        </Link>{" "}
-        /{" "}
-        <Link href="/contact">
-          <a>Contact</a>
-        </Link>{" "}
-        /{" "}
-        <Link href="/motivation">
-          <a>Motivation</a>
-        </Link>{" "}
-        /{" "}
+        {links.map((item) => (
+          <Fragment>
+            <Link href={item.href}>
+              <a>{item.text}</a>
+            </Link>{" "}
+            /{" "}
+          </Fragment>
+        ))}
+
         <a
           target="_blank"
           rel="noopener noreferrer"
