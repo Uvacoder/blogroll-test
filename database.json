@@ -535,6 +535,21 @@
             "website": "https://franz.hamburg/writing.html"
         },
         {
+            "author": "Andrew Healey",
+            "description": "I'm a software engineer and I enjoy teaching people about code! I write about code, my side projects, and the rest of my life too.",
+            "tags": [
+                "webdev",
+                "javascript",
+                "python",
+                "programming",
+                "software-engineering",
+                "projects",
+                "engineering",
+            ],
+            "title": "healeycodes",
+            "website": "https://healeycodes.com"
+        },
+      {
             "author": "Jay Kanakiya",
             "description": "How Software is changing the world of Business rapidly and thoughts on uncovering new trends. ",
             "tags": [
@@ -544,8 +559,7 @@
                 "marketing",
                 "automation"
             ],
-            "title": "Thoughts, Ideas, Ramblings, Articles, Promos",
-            "website": "https://jay.kanakiya.in/blog/"
+            "title": "Thoughts, Ideas, Ramblings, Articles, Promos"
         }
     ]
 }
