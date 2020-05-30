@@ -221,7 +221,7 @@
             "author": "Patrick Collison",
             "description": "I live in San Francisco and work at Stripe. I grew up in Ireland and previously studied math at MIT. I am on the boards of Stripe and the Long Now Foundation. (The long-term is underrated!)",
             "tags": [
-                "progarmming",
+                "programming",
                 "computer-science",
                 "advice",
                 "internet",
@@ -365,7 +365,7 @@
         },
         {
             "author": "Christine Dodrill",
-            "description": "Tech, Cooking, Linugistics, Programming language theroy and more",
+            "description": "Tech, Cooking, Linugistics, Programming language theory and more",
             "tags": [
                 "rust",
                 "golang",
@@ -376,6 +376,23 @@
             "website": "https://christine.website/blog"
         },
         {
+            "author": "Blain smith",
+            "description": "Software, programming, and maybe some powerlifting.",
+            "tags": [
+                "go",
+                "programming",
+                "linux",
+                "software engineering",
+                "powerlifting",
+                "learning",
+                "networking",
+                "shell-tools",
+                "open-source"
+            ],
+            "title": "Blain Smith",
+            "website": "https://blainsmith.com"
+        },
+      {
             "author": "Lukas Murdock",
             "description": "Designer, developer, and marketer trying to do work that matters for people who care.",
             "tags": [
