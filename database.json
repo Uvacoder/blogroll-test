@@ -376,6 +376,19 @@
             "website": "https://christine.website/blog"
         },
         {
+            "author": "Lukas Murdock",
+            "description": "Designer, developer, and marketer trying to do work that matters for people who care.",
+            "tags": [
+                "designer",
+                "developer",
+                "marketer",
+                "brand",
+                "business"
+            ],
+            "title": "Lukas Murdock",
+            "website": "https://lukasmurdock.com/"
+        },
+        {
             "author": "Matt Greer",
             "description": "I'm mostly a JavaScript developer who also has an interest in retro game tech. I tend to combine the two in various ways, such as modern web based tools for old game consoles.",
             "tags": [
