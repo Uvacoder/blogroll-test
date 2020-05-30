@@ -388,17 +388,17 @@
             "title": "Christine Dodrill",
             "website": "https://christine.website/blog"
         },
-	{
-	    "author": "Ibrahim Diallo",
-	    "description": "Telling stories about the programming world one statement at a time",
-	    "tags": [
-		"programming",
-		"storytelling",
-		"work stories"
-	    ],
-	    "title": "Programming from the human perspective By Ibrahim Diallo",
-	    "website": "https://idiallo.com"
-	},
+        {
+            "author": "Ibrahim Diallo",
+            "description": "Telling stories about the programming world one statement at a time",
+            "tags": [
+                "programming",
+                "storytelling",
+                "work-stories"
+            ],
+            "title": "Programming from the human perspective By Ibrahim Diallo",
+            "website": "https://idiallo.com"
+        },
         {
             "author": "Devin Weaver (@sukima)",
             "description": "A blog of personal quality — I am a passionate software developer specialized in Ember.js, JavaScript, and Ruby. I dabble in Photography, 360 panoramic tours, interactive fiction, and geek culture.",
@@ -415,7 +415,7 @@
             "title": "TriTarget.org",
             "website": "https://tritarget.org/"
         },
-      {
+        {
             "author": "Brajeshwar Oinam",
             "description": "I am a designer. I design experiences, opportunities, careers, teams, products, and organizations.",
             "tags": [
@@ -427,14 +427,14 @@
             "title": "Brajeshwar Oinam",
             "website": "https://brajeshwar.com"
         },
-      {
+        {
             "author": "Blain smith",
             "description": "Software, programming, and maybe some powerlifting.",
             "tags": [
                 "go",
                 "programming",
                 "linux",
-                "software engineering",
+                "software-engineering",
                 "powerlifting",
                 "learning",
                 "networking",
@@ -444,7 +444,7 @@
             "title": "Blain Smith",
             "website": "https://blainsmith.com"
         },
-      {
+        {
             "author": "Lukas Murdock",
             "description": "Designer, developer, and marketer trying to do work that matters for people who care.",
             "tags": [
@@ -473,9 +473,10 @@
             "author": "Franz Neubert",
             "description": "Software, projects & software projects. I write about personal projects and about things I learned at my job as a data engineer.",
             "tags": [
-                "software engineering",
+                "software-engineering",
                 "projects",
-                "data engineering",
+                "engineering",
+                "data-engineering",
                 "performance"
             ],
             "title": "Franz Neubert: Writing",
