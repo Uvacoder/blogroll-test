@@ -16,8 +16,7 @@ export function Layout({ children }: LayoutProps) {
   return (
     <Fragment>
       <Navigation />
-      {pathname === "/" ? "" : <BreadCrumb />}
-
+      {pathname !== "/" && <BreadCrumb />}
       {children}
       <Footer />
     </Fragment>
