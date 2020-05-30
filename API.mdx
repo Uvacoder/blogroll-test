@@ -1,0 +1,49 @@
+### API for awesomeblog.club
+
+All the request should start with https://awesomeblog.club/api as the base.
+
+#### /random
+
+It returns a random blog.
+
+```typescript
+const result = await fetch("https://awesomeblog.club/api/random");
+const item = await result.json();
+
+console.log(item.random); // is a blog.
+```
+
+#### /blogs
+
+It returns all the blogs sorted randomly.
+
+```typescript
+const result = await fetch("https://awesomeblog.club/api/blogs");
+const item = await result.json();
+
+console.log(item.blogs); // is an array of all the blogs.
+```
+
+#### /blogs-by-tag
+
+It returns blogs matching a specific tag. You need to pass in a tag in either search params or body.
+
+```typescript
+const result = await fetch(
+  "https://awesomeblog.club/api/blogs-by-tag?tag=lisp-lang"
+);
+const item = await result.json();
+
+console.log(item.blogsByTag); // is an array of all the blogs.
+```
+
+#### /search
+
+It returns search results for blogs. You need to pass in a query in either search params or body.
+
+```typescript
+const result = await fetch("https://awesomeblog.club/api/search?query=gwern");
+const item = await result.json();
+
+console.log(item.search); // is an array of all the blogs matching the search query.
+```

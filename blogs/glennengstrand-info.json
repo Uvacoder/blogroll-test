@@ -1,0 +1,16 @@
+{
+	"author": "Glenn Engstrand",
+	"description": "Whenever I evaluate a technology stack for microservice architecture viability, I implement the same feature identical polyglot persistent microservice then run it through the same load test as all the others. In that way, I can compare and contrast these various technology stacks. I blog about the results here.",
+	"tags": [
+		"architecture",
+		"big-data",
+		"cloud-computing",
+		"graphql",
+		"stack",
+		"programming",
+		"python",
+		"cpp-lang"
+	],
+	"title": "Glenn Engstrand",
+	"website": "http://glennengstrand.info/blog/"
+}

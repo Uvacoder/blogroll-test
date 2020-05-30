@@ -1,0 +1,15 @@
+{
+	"author": "Eli Bendersky",
+	"description": "This blog began in 2003 as a personal online journal; in the past few years it became mostly an outlet for technical, programming-related posts. It's my way to document things I find interesting for my future self.",
+	"tags": [
+		"go-lang",
+		"webdev",
+		"networking",
+		"games",
+		"programming",
+		"python",
+		"cpp-lang"
+	],
+	"title": "Eli Bendersky's website",
+	"website": "https://eli.thegreenplace.net"
+}

@@ -1,0 +1,16 @@
+{
+	"author": "Devin Weaver (@sukima)",
+	"description": "A blog of personal quality — I am a passionate software developer specialized in Ember.js, JavaScript, and Ruby. I dabble in Photography, 360 panoramic tours, interactive fiction, and geek culture.",
+	"tags": [
+		"javascript",
+		"emberjs",
+		"photography",
+		"panoramas",
+		"interactive-fiction",
+		"programming",
+		"bash",
+		"vim"
+	],
+	"title": "TriTarget.org",
+	"website": "https://tritarget.org/"
+}

@@ -1,0 +1,20 @@
+{
+	"author": "Oona Räisänen",
+	"description": "absorptions is a blog about my hobbies. So far it's mostly about signals, electronics and programming, but may pick up a random new field at any point. It's a place for me to direct my need to talk nerdy. Why? I like the smell of unsolved mysteries. Call them obsessions or special interests; I call them absorptions.",
+	"tags": [
+		"graphics",
+		"bad-stuff",
+		"computer-art",
+		"perl",
+		"hardware",
+		"linux",
+		"infodump",
+		"signals",
+		"reversing",
+		"computer-vision",
+		"FM-subcarriers",
+		"radio"
+	],
+	"title": "windytan",
+	"website": "http://www.windytan.com/"
+}

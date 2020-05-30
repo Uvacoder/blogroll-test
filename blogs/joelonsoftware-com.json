@@ -1,0 +1,22 @@
+{
+	"author": "Joel Spolsky",
+	"description": "This is Joel on Software, where I’ve been ranting about software development, management, business, and the Internet since 2000. In 2000 I co-founded Fog Creek Software, where we created lots of cool things like the FogBugz bug tracker, Trello, and Glitch. I also worked with Jeff Atwood to create Stack Overflow and served as CEO of Stack Overflow from 2010-2019. ",
+	"tags": [
+		"software",
+		"management",
+		"stack-overflow",
+		"startup",
+		"recruiter",
+		"frog-creek",
+		"tips",
+		"abstractions-are-leaky",
+		"new-york",
+		"sinful-software",
+		"programming",
+		"devops",
+		"system-admin",
+		"infrastructure-management"
+	],
+	"website": "https://www.joelonsoftware.com",
+	"title": "Joel on software"
+}

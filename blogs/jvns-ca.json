@@ -1,0 +1,30 @@
+{
+	"author": "Julia Evans",
+	"description": "I’m a software developer. I live in Montreal. I sometimes give talks. Most of my income comes from my programming zines business Wizard Zines.",
+	"tags": [
+		"computers",
+		"networking",
+		"shell-tools",
+		"kubernetes",
+		"containers",
+		"comics",
+		"exercises",
+		"writing",
+		"conferences",
+		"organizing-conferences",
+		"statistics",
+		"operation-engineering",
+		"career",
+		"work",
+		"remote-work",
+		"podcasts",
+		"rust-lang",
+		"debugging-stories",
+		"open-source",
+		"linux",
+		"recurse-center",
+		"programming"
+	],
+	"title": "jvns",
+	"website": "https://jvns.ca"
+}
