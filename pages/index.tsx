@@ -3,14 +3,17 @@ import { IAmFeelingLucky } from "../components/IAmFeelingLucky";
 import { Meta } from "../components/Meta";
 import { SearchList } from "../components/SearchList";
 import { Layout } from "../layouts/default";
+import { fuseSearchOptions } from "../utils/constant";
 import { store } from "../utils/store";
+import { BlogType } from "../utils/types";
 
-function IndexPage({ blogs }) {
-  const options = {
-    keys: ["title", "author", "tags", "description", "website"],
-  };
-  const fuse = new Fuse(blogs, options);
+interface IndexPageProps {
+  blogs: BlogType[];
+  random: BlogType;
+}
 
+function IndexPage({ blogs, random }: IndexPageProps) {
+  const fuse = new Fuse(blogs, fuseSearchOptions);
   return (
     <Layout>
       <Meta
@@ -47,11 +50,11 @@ function IndexPage({ blogs }) {
   );
 }
 
-export async function getStaticProps() {
-  const blogs = store.getBlogs();
+export async function getServerSideProps() {
   return {
     props: {
-      blogs,
+      blogs: store.getBlogs(),
+      random: store.getRandomBlog(),
     },
   };
 }

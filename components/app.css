@@ -32,3 +32,8 @@ body {
   border-radius: 10px;
   margin-right: 20px;
 }
+
+.all-tags {
+  display: grid;
+  grid-template-columns: 1fr;
+}
