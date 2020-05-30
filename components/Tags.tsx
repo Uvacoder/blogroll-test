@@ -8,7 +8,7 @@ export function Tags() {
       <div className="tags-container">
         {store.getTags().map((tag, index) => {
           return (
-            <Link key={index} href={`/tags/:id`} as={`/tags/${tag}`}>
+            <Link key={index} href={`/tags/[id]`} as={`/tags/${tag}`}>
               <div>
                 <a> {tag} </a>
               </div>
