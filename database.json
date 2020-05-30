@@ -389,6 +389,17 @@
             "website": "https://christine.website/blog"
         },
         {
+            "author": "Eric Richardson",
+            "description": "Musings around the intersection of people and machines",
+            "tags": [
+                "crypto",
+                "peer-to-peer",
+                "work"
+            ],
+            "title": "Decompiled",
+            "website": "https://decompiled.dev"
+        },
+        {
             "author": "Ibrahim Diallo",
             "description": "Telling stories about the programming world one statement at a time",
             "tags": [
