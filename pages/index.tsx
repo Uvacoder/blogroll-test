@@ -26,15 +26,21 @@ function IndexPage({ blogs }) {
         title="GitHub"
       ></iframe>
 
-      <h4
+      <div
         style={{
-          paddingBottom: 5,
+          margin: "1rem 0",
         }}
       >
-        {" "}
-        Maybe you should try something random today?{" "}
-      </h4>
-      <IAmFeelingLucky />
+        <h4
+          style={{
+            paddingBottom: 10,
+          }}
+        >
+          {" "}
+          Maybe you should try something random today?{" "}
+        </h4>
+        <IAmFeelingLucky />
+      </div>
 
       <SearchList fuse={fuse} blogs={blogs} />
     </Layout>
