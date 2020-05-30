@@ -389,6 +389,18 @@
             "website": "https://christine.website/blog"
         },
         {
+            "author": "OldPanda",
+            "description": "I shall dedicate myself to the interests of the country in life and death irrespective of personal weal and woe",
+            "tags": [
+                "python",
+                "golang",
+                "life",
+                "japanese"
+            ],
+            "title": "Panda Home",
+            "website": "https://old-panda.com/"
+        },
+        {
             "author": "Eric Richardson",
             "description": "Musings around the intersection of people and machines",
             "tags": [
