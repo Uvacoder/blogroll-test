@@ -17,13 +17,15 @@ Most things should be configurable via next.config.js.
    
 You can also use this nice button below -
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/searchableguy/awesomeblog.club)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/searchableguy/awesomeblog-club)
 
 if you are not using vercel for deployment (which I recommend because it's super fast and easy), you can run `yarn build` or `npm run build` and `yarn start` or `npm start` to run it on your own server.
 
 ### Contributing
 
 If you are contributing a major change or adding features, please make an issue before hand.
+
+we follow [conventional-commit](https://conventionalcommits.org/) schema. Please try to follow that in your PRS.
 
 #### Development
 

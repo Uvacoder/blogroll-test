@@ -9,7 +9,7 @@ export function Blog({ website, title, description, author, tags }: BlogProps) {
       <a href={website} target="_blank" rel="noopener noreferrer">
         {title}
       </a>
-      <h6> Authored by {author}</h6>
+      <h4> Authored by {author}</h4>
       <p> {description}</p>
       <div className="tags-container">
         {tags.sort().map((item, index) => (

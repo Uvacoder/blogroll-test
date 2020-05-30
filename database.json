@@ -387,6 +387,29 @@
             ],
             "title": "Lukas Murdock",
             "website": "https://lukasmurdock.com/"
+        },
+            "author": "Matt Greer",
+            "description": "I'm mostly a JavaScript developer who also has an interest in retro game tech. I tend to combine the two in various ways, such as modern web based tools for old game consoles.",
+            "tags": [
+                "javascript",
+                "typescript",
+                "retro-gaming",
+                "web-based-tools"
+            ],
+            "title": "Matt Greer",
+            "website": "https://www.mattgreer.org"
+        },
+        {
+            "author": "Franz Neubert",
+            "description": "Software, projects & software projects. I write about personal projects and about things I learned at my job as a data engineer.",
+            "tags": [
+                "software engineering",
+                "projects",
+                "data engineering",
+                "performance"
+            ],
+            "title": "Franz Neubert: Writing",
+            "website": "https://franz.hamburg/writing.html"
         }
     ]
 }
