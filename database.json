@@ -362,6 +362,18 @@
             ],
             "title": "Exponential Backoff",
             "website": "https://www.exponentialbackoff.com/"
+        },
+        {
+            "author": "Christine Dodrill",
+            "description": "Tech, Cooking, Linugistics, Programming language theroy and more",
+            "tags": [
+                "rust",
+                "golang",
+                "cooking",
+                "linguistics"
+            ],
+            "title": "Christine Dodrill",
+            "website": "https://christine.website/blog"
         }
     ]
 }
