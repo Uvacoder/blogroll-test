@@ -32,8 +32,8 @@ export function Navigation() {
   return (
     <nav>
       <p>
-        {links.map((item) => (
-          <Fragment>
+        {links.map((item, index) => (
+          <Fragment key={index}>
             <Link href={item.href}>
               <a>{item.text}</a>
             </Link>{" "}

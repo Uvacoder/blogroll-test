@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import { Fragment, ReactNode } from "react";
 import { BreadCrumb } from "../components/BreadCrumb";
 import { Footer } from "../components/Footer";
@@ -11,10 +12,12 @@ export interface LayoutProps {
 }
 
 export function Layout({ children }: LayoutProps) {
+  const { pathname } = useRouter();
   return (
     <Fragment>
       <Navigation />
-      <BreadCrumb />
+      {pathname === "/" ? "" : <BreadCrumb />}
+
       {children}
       <Footer />
     </Fragment>

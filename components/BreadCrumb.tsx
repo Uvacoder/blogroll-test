@@ -13,7 +13,7 @@ export function BreadCrumb() {
   return (
     <p>
       <Link href="/">
-        <a> home </a>
+        <a>home</a>
       </Link>
       {segments.length > 0 &&
         segments.map((path, index) => {

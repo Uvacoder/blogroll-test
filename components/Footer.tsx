@@ -15,7 +15,7 @@ export function Footer() {
           with {"<3"}
         </span>
       </h5>
-      <p
+      <div
         style={{
           padding: "10px",
         }}
@@ -44,7 +44,7 @@ export function Footer() {
             middle for 7 min 40 seconds minutes.
           </li>
         </ul>
-      </p>
+      </div>
     </footer>
   );
 }
