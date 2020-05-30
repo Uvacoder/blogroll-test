@@ -386,6 +386,18 @@
             ],
             "title": "Matt Greer",
             "website": "https://www.mattgreer.org"
+        },
+        {
+            "author": "Franz Neubert",
+            "description": "Software, projects & software projects. I write about personal projects and about things I learned at my job as a data engineer.",
+            "tags": [
+                "software engineering",
+                "projects",
+                "data engineering",
+                "performance"
+            ],
+            "title": "Franz Neubert: Writing",
+            "website": "https://franz.hamburg/writing.html"
         }
     ]
 }
