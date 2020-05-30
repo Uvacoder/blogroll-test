@@ -374,6 +374,18 @@
             ],
             "title": "Christine Dodrill",
             "website": "https://christine.website/blog"
+        },
+        {
+            "author": "Matt Greer",
+            "description": "I'm mostly a JavaScript developer who also has an interest in retro game tech. I tend to combine the two in various ways, such as modern web based tools for old game consoles.",
+            "tags": [
+                "javascript",
+                "typescript",
+                "retro-gaming",
+                "web-based-tools"
+            ],
+            "title": "Matt Greer",
+            "website": "https://www.mattgreer.org"
         }
     ]
 }
