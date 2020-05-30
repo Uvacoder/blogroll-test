@@ -533,6 +533,19 @@
             ],
             "title": "Franz Neubert: Writing",
             "website": "https://franz.hamburg/writing.html"
+        },
+        {
+            "author": "Jay Kanakiya",
+            "description": "How Software is changing the world of Business rapidly and thoughts on uncovering new trends. ",
+            "tags": [
+                "business",
+                "SaaS",
+                "css",
+                "marketing",
+                "automation"
+            ],
+            "title": "Thoughts, Ideas, Ramblings, Articles, Promos",
+            "website": "https://jay.kanakiya.in/blog/"
         }
     ]
 }
