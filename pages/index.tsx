@@ -53,7 +53,7 @@ function IndexPage({ blogs, random }: IndexPageProps) {
 export async function getServerSideProps() {
   return {
     props: {
-      blogs: store.getBlogs(),
+      blogs: store.getRandomlySortedBlogs(),
       random: store.getRandomBlog(),
     },
   };
