@@ -1,5 +1,6 @@
 import Fuse from "fuse.js";
-import { useState } from "react";
+import { useMemo, useState } from "react";
+import { fuseSearchOptions } from "../utils/constant";
 import { BlogType } from "../utils/types";
 import { BlogList } from "./Blog";
 
@@ -10,16 +11,15 @@ interface SearchListProps {
 
 export function SearchList(props: SearchListProps) {
   const blogs = props.blogs;
-  const [list, setList] = useState(blogs);
+  const fuse = useMemo(() => new Fuse(blogs, fuseSearchOptions), [blogs]);
+  const [query, setQuery] = useState("");
   function onQuery(event) {
     const query = event.target.value as string;
-    if (query.length < 2 && list.length < 1) {
-      return setList(blogs);
+    if (query.length > 2) {
+      setQuery(query);
+    } else {
+      setQuery("");
     }
-    if (query.length < 2) return;
-    const results = props.fuse.search(query);
-    const items = results.map((result) => result.item);
-    setList(items);
   }
   return (
     <div>
@@ -30,8 +30,11 @@ export function SearchList(props: SearchListProps) {
         type="text"
         onChange={onQuery}
       />
+      <BlogList
+        items={query ? fuse.search(query).map((result) => result.item) : blogs}
+      />
+
       <p> Search works with all the metadata including tags. </p>
-      <BlogList items={list} />
     </div>
   );
 }
