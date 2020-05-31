@@ -1,16 +1,8 @@
-import { readdirSync, readFileSync } from "fs";
+import database from "../database.json";
 import { BlogType } from "./types";
 export class Store {
-  public blogs: BlogType[];
-  constructor(public dir: string) {
-    const paths = readdirSync(dir, "utf-8");
-    const blogs = (paths.map((path) => {
-      const content = readFileSync(`${dir}/${path}`, "utf-8");
-      const json = JSON.parse(content);
-      return json;
-    }) as unknown) as BlogType[];
-    this.blogs = blogs;
-  }
+  public blogs: BlogType[] = database.blogs;
+  constructor() {}
   getTags() {
     const tags = this.blogs.map((item) => item.tags).flat();
     return [...new Set(tags)];
@@ -33,4 +25,4 @@ export class Store {
   }
 }
 
-export const store = new Store("blogs");
+export const store = new Store();

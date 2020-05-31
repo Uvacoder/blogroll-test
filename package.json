@@ -8,8 +8,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "next",
-    "build": "next build",
+    "build:db": "node ./scripts/build.js",
+    "dev": "yarn build:db && next",
+    "build": "yarn build:db && next build",
     "start": "next start"
   },
   "dependencies": {
