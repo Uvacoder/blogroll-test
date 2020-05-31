@@ -1,0 +1,22 @@
+{
+	"author": "Surya Dantuluri",
+	"description": "I write about Software Infrastructure and Machine Learning Research",
+	"tags": [
+	"infrastructure",
+        "containers",
+        "architecture",
+        "scaling",
+        "networking",
+        "wireguard",
+        "webdev",
+        "programming",
+        "devops",
+	"machine-learning",	 
+        "statistics",
+        "linear-algebra",
+        "deep-learning",
+        "computer science"
+	],
+	"title": "Surya's Blog",
+	"website": "http://suryad.com/blog/"
+}

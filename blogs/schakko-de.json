@@ -1,0 +1,13 @@
+{
+    "author": "Schakko",
+    "description": "Personal blog about my challenges in the space of software engineering and networking. Mostly focused nowadays on continuous integration and delivery.",
+    "tags": [
+        "continuous-integration",
+        "continuous-delivery",
+        "selling-software",
+        "multitenancy",
+        "networking"
+    ],
+    "title": "Solving challenges in software engineering and networking",
+    "website": "https://schakko.de"
+}
