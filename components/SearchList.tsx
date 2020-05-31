@@ -1,9 +1,9 @@
 import Fuse from "fuse.js";
 import { useMemo, useState } from "react";
+import { useDebouncedCallback } from "use-debounce";
 import { fuseSearchOptions } from "../utils/constant";
 import { BlogType } from "../utils/types";
 import { BlogList } from "./Blog";
-
 interface SearchListProps {
   blogs: BlogType[];
   fuse: Fuse<any, any>;
@@ -13,13 +13,19 @@ export function SearchList(props: SearchListProps) {
   const blogs = props.blogs;
   const fuse = useMemo(() => new Fuse(blogs, fuseSearchOptions), [blogs]);
   const [query, setQuery] = useState("");
+  const [debounced] = useDebouncedCallback(
+    (value: string) => setQuery(value),
+    300,
+    {
+      maxWait: 600,
+    }
+  );
   function onQuery(event) {
     const query = event.target.value as string;
     if (query.length > 2) {
-      setQuery(query);
-    } else {
-      setQuery("");
+      return debounced(query);
     }
+    debounced("");
   }
   return (
     <div>
